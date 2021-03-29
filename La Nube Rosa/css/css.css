@@ -1,0 +1,57 @@
+:root {
+	--verde: #7c7776;
+}
+
+@font-face {
+	font-family: thin;
+	src: url("Now-Light.otf");
+}
+
+@font-face {
+	font-family: NeverLetGo;
+	src: url("NeverLetGo.ttf");
+}
+
+body {
+	font-family: thin;
+	margin-top: 60px;
+}
+
+#modalLink:hover {
+	cursor: pointer;
+}
+
+#NubeRosa {
+	color: var(--verde);
+}
+
+.separador {
+	max-width: 768px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid var(--verde);
+}
+.presentacion {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: left;
+	padding: 20px;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+}
+
+.social a {
+	text-decoration: none;
+	color: var(--verde);
+	font-size: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
